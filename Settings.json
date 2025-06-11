@@ -1,18 +1,31 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.mouseWheelZoom": true,
-    "editor.fontSize": 16,
-    "editor.rulers": [106],
-    "editor.wordWrap": "on",
-    "editor.wordWrapColumn": 107,
-    "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "none",
-    "editor.formatOnSave": true,
-    "security.allowedUNCHosts": [
-      "wsl.localhost"
-    ]
-  }
-  
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.mouseWheelZoom": true,
+  "editor.fontSize": 16,
+  "editor.rulers": [106],
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 107,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "window.restoreWindows":"none",
+  "editor.formatOnSave": true,
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "explorer.confirmDelete": false,
+  "python.createEnvironment.trigger": "off",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "javascript": false
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true
+}
+
